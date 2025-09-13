@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Laser - Home</title>
+    <link rel="icon" href="https://scontent.fmxp13-2.fna.fbcdn.net/v/t39.30808-1/464363955_10235779316807253_7931135997042311777_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=103&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=CxDs-9IEgVAQ7kNvwEKlCVC&_nc_oc=AdkdX8UXJRgT4yfRbVMguPIejuoQdXV8lGzR8Y3hdKlDdctop6-TlMRHsLbmNLKR_4PGprNfO2MGR6l9WYmg-PZM&_nc_zt=24&_nc_ht=scontent.fmxp13-2.fna&_nc_gid=tQg1eFk8aezst8BBYtSVJw&oh=00_AfaeOEOQfhb7nYX3yS8LE-J_Yd3We-tGAHjb02yyhcOOOg&oe=68CB017B" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-papTgkAgF6DHQps4jzFqXTmFChFbRpiEuk+xO+Uuk6A3pFP6Y65IG9Bp6PA2XvwFyKxJQfaJTOkB3Vr+VsyYkg==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+
+<div id="cookie-banner" class="hidden">
+    <p>
+        Questo sito utilizza Google Maps che potrebbe installare cookie di terze parti.
+        <a href="/privacy.html" target="_blank" rel="noopener">Scopri di più</a>.
+    </p>
+    <button id="accept-cookies">OK</button>
+</div>
+
+<!-- Navbar -->
+<header class="navbar" id="navbar">
+    <img src="https://scontent.fmxp13-2.fna.fbcdn.net/v/t39.30808-1/464363955_10235779316807253_7931135997042311777_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=103&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=CxDs-9IEgVAQ7kNvwEKlCVC&_nc_oc=AdkdX8UXJRgT4yfRbVMguPIejuoQdXV8lGzR8Y3hdKlDdctop6-TlMRHsLbmNLKR_4PGprNfO2MGR6l9WYmg-PZM&_nc_zt=24&_nc_ht=scontent.fmxp13-2.fna&_nc_gid=tQg1eFk8aezst8BBYtSVJw&oh=00_AfaeOEOQfhb7nYX3yS8LE-J_Yd3We-tGAHjb02yyhcOOOg&oe=68CB017B" alt="Alma Favignana logo" class="logo">
+    <div class="menu-toggle" id="menu-toggle" aria-label="Apri menu">&#9776;</div>
+    <nav class="nav-links" id="nav">
+        <a href="#hero">Home</a>
+        <a href="#about">Chi siamo</a>
+        <a href="#servizi">Servizi</a>
+        <a href="#gallery">Riparazioni</a>
+        <a href="#contact">Contatti</a>
+    </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content" data-aos="fade-up">
+        <h1>Doctor Laser</h1>
+        <p>Vendita e riparazione di macchinari estetici professionali</p>
+        <a href="#about" class="btn">Scopri i nostri servizi</a>
+    </div>
+    <div class="hero-wave">
+        <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+            <path d="M0,224 C360,300 1080,160 1440,240 L1440,320 L0,320 Z"></path>
+        </svg>
+    </div>
+</section>
+
+
+
+<!-- About -->
+<section id="about" data-aos="fade-up">
+    <h2>Benvenuti da Doctor Laser</h2>
+
+    <div class="about-intro">
+        <p>
+            Con anni di esperienza nel settore, <strong>Doctor Laser</strong> è specializzato nella vendita e nella riparazione di macchinari estetici professionali.
+            Offriamo soluzioni innovative e assistenza qualificata per garantire performance elevate e massima affidabilità alle tue apparecchiature.
+        </p>
+    </div>
+</section>
+
+<!-- Sezione Servizi -->
+<section id="servizi" data-aos="fade-up">
+    <div class="about-benefits" data-aos="fade-up">
+
+        <!-- Assistenza tecnica -->
+        <div class="benefit-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-right-text" viewBox="0 0 16 16">
+                <path d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
+                <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6m0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+            </svg>
+            <h3>Assistenza tecnica specializzata</h3>
+            <p>Manutenzione, riparazione e rigenerazione di macchinari estetici professionali, anche in loco o nel nostro laboratorio.</p>
+        </div>
+
+        <!-- Preventivi rapidi -->
+        <div class="benefit-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-history" viewBox="0 0 16 16">
+                <path d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022zm2.004.45a7 7 0 0 0-.985-.299l.219-.976q.576.129 1.126.342zm1.37.71a7 7 0 0 0-.439-.27l.493-.87a8 8 0 0 1 .979.654l-.615.789a7 7 0 0 0-.418-.302zm1.834 1.79a7 7 0 0 0-.653-.796l.724-.69q.406.429.747.91zm.744 1.352a7 7 0 0 0-.214-.468l.893-.45a8 8 0 0 1 .45 1.088l-.95.313a7 7 0 0 0-.179-.483m.53 2.507a7 7 0 0 0-.1-1.025l.985-.17q.1.58.116 1.17zm-.131 1.538q.05-.254.081-.51l.993.123a8 8 0 0 1-.23 1.155l-.964-.267q.069-.247.12-.501m-.952 2.379q.276-.436.486-.908l.914.405q-.24.54-.555 1.038zm-.964 1.205q.183-.183.35-.378l.758.653a8 8 0 0 1-.401.432z"/>
+                <path d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0z"/>
+                <path d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5"/>
+            </svg>
+            <h3>Preventivi rapidi e trasparenti</h3>
+            <p>Valutiamo fattibilità e costi via telefono, email o WhatsApp dopo la diagnosi del guasto, con ricambi originali garantiti.</p>
+        </div>
+
+        <!-- Copertura completa -->
+        <div class="benefit-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-broadcast-pin" viewBox="0 0 16 16">
+                <path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707m2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708m5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708m2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM6 8a2 2 0 1 1 2.5 1.937V15.5a.5.5 0 0 1-1 0V9.937A2 2 0 0 1 6 8"/>
+            </svg>
+            <h3>Copertura completa</h3>
+            <p>Laser a diodo, IPL, Body Shape, pressoterapia, criolipolisi, EMS Sculpt, lipolaser, hydrafacial, radiofrequenza, autoclave e molto altro.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Sezione Soluzioni -->
+<section id="soluzioni" class="soluzioni-section">
+    <h2 class="section-title">Le Nostre Soluzioni</h2>
+
+    <!-- Revisione Attrezzature -->
+    <div class="soluzione">
+        <div class="soluzione-content">
+            <h3>Revisione Attrezzature</h3>
+            <p>
+                Cambio acqua, filtri, pulizia impianti e dissipatori di raffreddamento, pulizia manipoli
+                (laser, bodyshape, criolipolisi ecc.), pompe acqua e di aspirazione.
+                Sostituzione celle di raffreddamento.
+            </p>
+        </div>
+        <div class="soluzione-image">
+            <img src="https://www.domusmedica.sm/wp-content/uploads/2022/02/1024x768s.jpg" alt="Revisione Attrezzature">
+        </div>
+    </div>
+
+    <!-- Rigenerazione Manipoli -->
+    <div class="soluzione invertita">
+        <div class="soluzione-content">
+            <h3>Rigenerazione Manipoli</h3>
+            <p>
+                Sostituzione e riparazioni diodi (micro e macro channel), sostituzione scocche, cablaggi,
+                tubi e guaine passacavi per una rigenerazione completa e sicura.
+            </p>
+        </div>
+        <div class="soluzione-image">
+            <img src="https://images.unsplash.com/photo-1576446468729-7674e99608f5?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Rigenerazione Manipoli">
+        </div>
+    </div>
+
+    <!-- Produzione Personalizzata -->
+    <div class="soluzione">
+        <div class="soluzione-content">
+            <h3>Produzione Personalizzata</h3>
+            <p>
+                Progettazione e personalizzazione di apparecchiature elettro-medicali ed estetiche:
+                sistemi laser, IPL (luce pulsata), radiofrequenza estetica e cavitazione.
+                Soluzioni su misura per centri estetici e professionisti.
+            </p>
+        </div>
+        <div class="soluzione-image">
+            <img src="https://skinmedic.it/wp-content/uploads/2025/03/Laser-Diodo-Articolo-Vs-Luce-Pulsata.jpg" alt="Produzione Personalizzata">
+        </div>
+    </div>
+
+    <!-- Altri Servizi -->
+    <div class="soluzione invertita">
+        <div class="soluzione-content">
+            <h3>Altri Servizi</h3>
+            <p>
+                Forniamo ricambi e accessori per apparecchiature estetiche, in particolare: lampade IPL,
+                sorgenti laser a diodo, elettrodi monopolari e multipolari per radiofrequenza, ricambi e accessori per pressoterapia.
+            </p>
+        </div>
+        <div class="soluzione-image">
+            <img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/cf33777b-9c89-404c-b1e3-73e8411b77ca/31d96c4f-ada5-4b83-ac5e-6eb222fecef2/2385-epilazione-laser-678x381.jpeg" alt="Altri Servizi">
+        </div>
+    </div>
+</section>
+
+
+<section id="gallery" class="gallery-section">
+    <h2 class="section-title">Le Nostre Riparazioni</h2>
+
+    <div class="slider">
+        <div class="slides-wrapper">
+
+            <!-- Slide 1 -->
+            <div class="slide">
+                <img src="https://lirp.cdn-website.com/5b2af6be/dms3rep/multi/opt/epilazione+laser-640w.jpg" alt="Laser diodo potenziamento 400-600W">
+                <div class="slide-text">
+                    <h3>Laser Diodo</h3>
+                    <p>Potenziamento laser a diodo da 400 watt a 600 watt.</p>
+                    <ul>
+                        <li>✅ Sostituzione scheda di potenza</li>
+                        <li>✅ Sostituzione diodo</li>
+                        <li>✅ Sostituzione scheda controllo</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide">
+                <img src="https://www.clinicitalia.it/wp-content/uploads/2020/03/Epilazione-permanente-915x480.jpg" alt="Laser diodo raffreddamento">
+                <div class="slide-text">
+                    <h3>Laser Diodo</h3>
+                    <p>Istallazione impianto raffreddamento</p>
+                    <ul>
+                        <li>✅ Istallazione gruppo raffreddamento TEC</li>
+                        <li>✅ Istallazione scheda ausiliare TEC</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slide">
+                <img src="https://www.medicinaesteticasanprospero.it/wp-content/uploads/2020/03/laser-diodo-bologna.jpg" alt="Ricablaggio manipolo diodo 500W">
+                <div class="slide-text">
+                    <h3>Laser Diodo</h3>
+                    <p>Ricablaggio manipolo diodo 500 watt</p>
+                    <ul>
+                        <li>✅ Sostituzione cavi diodo</li>
+                        <li>✅ Sostituzione tubi raffreddamento manipolo</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="slide">
+                <img src="https://www.clinicitalia.it/wp-content/uploads/2024/02/hydrafacial-mesoestetic-915x480.jpeg" alt="Hydrafacial">
+                <div class="slide-text">
+                    <h3>Hydrafacial</h3>
+                    <p>Riparazione Vacum</p>
+                    <ul>
+                        <li>✅ Sostituzione tubi vacum</li>
+                        <li>✅ Sostituzione elettromagnete</li>
+                        <li>✅ Sostituzione filtri e pulizia generale</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Slide 5 -->
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1669920282670-d2e1f59e7aff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyZGl0YSUyMGFjcXVhJTIwcmlwYXJhemlvbmV8ZW58MHx8MHx8fDA%3D" alt="Laser diodo perdita acqua">
+                <div class="slide-text">
+                    <h3>Laser Diodo</h3>
+                    <p>Riparazione perdita acqua</p>
+                    <ul>
+                        <li>✅ Sostituzione vaschetta acqua</li>
+                        <li>✅ Sostituzione tubi</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Slide 6 -->
+            <div class="slide">
+                <img src="https://www.albieriidraulica.net/wp-content/uploads/2020/11/rubineto2.jpg" alt="Laser diodo flusso acqua">
+                <div class="slide-text">
+                    <h3>Laser Diodo</h3>
+                    <p>Problema flusso acqua</p>
+                    <ul>
+                        <li>✅ Sostituzione flussometro</li>
+                        <li>✅ Sostituzione acqua e filtri</li>
+                        <li>✅ Revisione generale</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Slide 7 -->
+            <div class="slide">
+                <img src="https://www.fisioterapiabusetto.it/wp-content/uploads/2018/04/Busetto-pressoterapia.jpg" alt="Pressoterapia">
+                <div class="slide-text">
+                    <h3>Pressoterapia</h3>
+                    <p>Problema pompa</p>
+                    <ul>
+                        <li>✅ Sostituzione pompa aria</li>
+                        <li>✅ Sostituzione elettrodi</li>
+                        <li>✅ Revisione generale</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Slide 8 -->
+            <div class="slide">
+                <img src="https://m.media-amazon.com/images/I/51A69wqxyvL._UF1000,1000_QL80_.jpg" alt="Laser diodo potenziamento 300-500W">
+                <div class="slide-text">
+                    <h3>Laser Diodo</h3>
+                    <p>Potenziamento laser a diodo da 300 watt a 500 watt.</p>
+                    <ul>
+                        <li>✅ Sostituzione scheda di potenza</li>
+                        <li>✅ Sostituzione diodo</li>
+                        <li>✅ Sostituzione scheda controllo</li>
+                        <li>✅ Riparazioni raffreddamento</li>
+                        <li>✅ Revisione generale</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Slide 9 -->
+            <div class="slide">
+                <img src="https://www.estetista.net/wp-content/uploads/2018/10/velasmooth.jpg" alt="Body Shape">
+                <div class="slide-text">
+                    <h3>Body Shape</h3>
+                    <p>Problemi manipolo VELASMOOTH</p>
+                    <ul>
+                        <li>✅ Riparazione rulli manipolo</li>
+                        <li>✅ Ripristino scocche manipolo</li>
+                        <li>✅ Sostituzione pompa vacum</li>
+                        <li>✅ Revisione generale</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Slide 10 -->
+            <div class="slide">
+                <img src="https://www.esteticacoralline.it/wp-content/uploads/2020/12/Hilaser_1-1024x683-1.jpg" alt="Laser diodo a fibra">
+                <div class="slide-text">
+                    <h3>Laser Diodo a Fibra</h3>
+                    <p>Problemi raffreddamento manipolo</p>
+                    <ul>
+                        <li>✅ Sostituzione cella peltier</li>
+                        <li>✅ Pulizia manipolo</li>
+                        <li>✅ Revisione generale</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Slide 11 -->
+            <div class="slide">
+                <img src="https://www.studiomedicoadigrat.it/wp-content/uploads/2022/01/Blog-Post-BODY-SCULPT-GENNAIO.jpg" alt="Bodysculpt">
+                <div class="slide-text">
+                    <h3>Bodysculpt</h3>
+                    <p>Problemi placca manipolo</p>
+                    <ul>
+                        <li>✅ Sostituzione relè diodo tripolare</li>
+                        <li>✅ Revisione generale</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Slide 12 -->
+            <div class="slide">
+                <img src="https://www.narcisaestetica.it/wp-content/uploads/2019/08/Screenshot_20190821_140811-1080x675.jpg" alt="Laser diodo problemi manipolo">
+                <div class="slide-text">
+                    <h3>Laser Diodo</h3>
+                    <p>Problemi manipolo</p>
+                    <ul>
+                        <li>✅ Sostituzione manipolo completo</li>
+                        <li>✅ Sostituzione attacco manipolo</li>
+                        <li>✅ Sostituzione blocchetto chiave accensione</li>
+                        <li>✅ Sostituzione filtri ed acqua</li>
+                        <li>✅ Revisione generale</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Slide 13 -->
+            <div class="slide">
+                <img src="https://www.beautymedlux.com/wp-content/uploads/2018/12/DiodeLaserportableEOS.jpg" alt="Laser caduto">
+                <div class="slide-text">
+                    <h3>Laser Diodo</h3>
+                    <p>Laser danneggiato per caduta</p>
+                    <ul>
+                        <li>✅ Ricostruzione scocca display</li>
+                        <li>✅ Sostituzione attacco manipolo</li>
+                        <li>✅ Sostituzione filtri ed acqua</li>
+                        <li>✅ Revisione generale</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Slide 14 -->
+            <div class="slide">
+                <img src="https://www.eurosud.it/user_files/prodotti/original/foto_3151_92232223.jpg" alt="Raffreddamento manipolo">
+                <div class="slide-text">
+                    <h3>Laser Diodo</h3>
+                    <p>Riparazione raffreddamento manipolo</p>
+                    <ul>
+                        <li>✅ Sostituzione cella di peltier</li>
+                        <li>✅ Pulizia dissipatore manipolo</li>
+                        <li>✅ Sostituzione filtri ed acqua</li>
+                        <li>✅ Revisione generale</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Slide 15 -->
+            <div class="slide">
+                <img src="https://www.smesteticatalenti.it/wp-content/uploads/2019/09/laser.jpg" alt="Raffreddamento manipolo">
+                <div class="slide-text">
+                    <h3>Laser Diodo</h3>
+                    <p>Riparazione raffreddamento manipolo</p>
+                    <ul>
+                        <li>✅ Sostituzione cella di peltier</li>
+                        <li>✅ Pulizia dissipatore manipolo</li>
+                        <li>✅ Sostituzione filtri ed acqua</li>
+                        <li>✅ Revisione generale</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Slide 16 -->
+            <div class="slide">
+                <img src="https://www.tobe24.net/wp-content/uploads/2012/07/epil_2_800x600.jpg" alt="Luce pulsata">
+                <div class="slide-text">
+                    <h3>Luce Pulsata</h3>
+                    <p>Macchina non funzionante</p>
+                    <ul>
+                        <li>✅ Sostituzione alimentatore scheda</li>
+                        <li>✅ Sostituzione flussometro</li>
+                        <li>✅ Sostituzione lampada</li>
+                        <li>✅ Sostituzione filtri ed acqua</li>
+                        <li>✅ Revisione generale</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Frecce -->
+        <button class="slider-btn prev">&#10094;</button>
+        <button class="slider-btn next">&#10095;</button>
+    </div>
+</section>
+
+
+
+
+<!-- Form eventi -->
+<section id="form-eventi" class="eventi-form-wrapper">
+    <h3>Richiedi informazioni per il tuo evento</h3>
+    <form class="eventi-form">
+        <input type="text" name="nome" placeholder="Il tuo nome" required>
+        <input type="email" name="email" placeholder="La tua email" required>
+        <input type="text" name="evento" placeholder="Tipo di evento (es. degustazione, cena, festa)" required>
+        <textarea name="messaggio" rows="4" placeholder="Scrivi qui la tua richiesta" required></textarea>
+        <button type="submit">Invia richiesta</button>
+    </form>
+</section>
+
+<!-- Counter animati -->
+<section id="counters" class="counter-section" data-aos="fade-up">
+    <h2>I Nostri Numeri</h2>
+    <div class="counter-container">
+        <div class="counter-box">
+            <span class="counter" data-target="1200">0</span>
+            <p>Riparazioni completate</p>
+        </div>
+        <div class="counter-box">
+            <span class="counter" data-target="350">0</span>
+            <p>Clienti soddisfatti</p>
+        </div>
+        <div class="counter-box">
+            <span class="counter" data-target="80">0</span>
+            <p>Macchinari revisionati ogni anno</p>
+        </div>
+        <div class="counter-box">
+            <span class="counter" data-target="10">0</span>
+            <p>Anni di esperienza nel settore</p>
+        </div>
+    </div>
+</section>
+<!-- Reviews -->
+<section id="reviews" class="reviews-section" data-aos="fade-up">
+    <h2>Cosa Dicono i Nostri Clienti</h2>
+    <div class="reviews-container">
+
+        <div class="review-card">
+            <p class="review-text">"Il mio laser aveva smesso di funzionare e temevo di doverlo sostituire. Invece, grazie all’assistenza, è stato riparato velocemente e ora funziona come nuovo."</p>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-author">— Dott.ssa Elena F.</p>
+        </div>
+
+        <div class="review-card">
+            <p class="review-text">"Servizio rapido e professionale. Hanno individuato subito il problema al manipolo e me lo hanno riconsegnato perfettamente revisionato."</p>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-author">— Studio Estetico Milano</p>
+        </div>
+
+        <div class="review-card">
+            <p class="review-text">"Ottima esperienza: massima disponibilità e competenza tecnica. Mi hanno risolto una perdita d’acqua sul laser a diodo in tempi record."</p>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-author">— Luca P.</p>
+        </div>
+
+    </div>
+</section>
+
+
+
+<!-- Contatti / Preventivo -->
+<section id="contact" class="cta" data-aos="fade-up">
+    <h2>Richiedi Assistenza o Preventivo</h2>
+    <p class="cta-intro">Hai bisogno di riparare un macchinario estetico o vuoi richiedere un preventivo per un intervento tecnico? Compila il form e ti contatteremo al più presto.</p>
+
+    <div class="contact-container">
+        <form class="contact-form" data-aos="fade-up" data-aos-delay="200">
+            <input type="text" name="name" placeholder="Il tuo nome" required>
+            <input type="email" name="email" placeholder="La tua email" required>
+            <input type="tel" name="phone" placeholder="Numero di telefono" required>
+            <input type="text" name="product" placeholder="Macchinario o servizio richiesto" required>
+            <textarea name="message" rows="4" placeholder="Descrivi il problema o la richiesta di assistenza" required></textarea>
+            <label class="privacy-consent">
+                <input type="checkbox" name="privacy" required>
+                Acconsento al trattamento dei miei dati personali ai sensi della
+                <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.
+            </label>
+            <button type="submit">Invia richiesta</button>
+        </form>
+
+        <div class="map-wrapper">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207.11406632947285!2d14.26387883492497!3d40.91686084118964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133b07733e21aa6d%3A0x3effe032b3a4e94c!2sVia%20Angelo%20Volpicelli%2C%2080022%20Arzano%20NA!5e0!3m2!1sit!2sit!4v1757803232337!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</section>
+
+<section id="social" class="social-section" data-aos="fade-up">
+    <h2>Seguici</h2>
+    <div class="social-icons">
+        <a href="https://www.instagram.com/dalbiondowinefood/" target="_blank" rel="noopener" aria-label="Instagram">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAABOFBMVEVHcExxF/13F/1zFf2AFv2MCu+iBOmyAuLEAd7SANraBMzwHpedI+XeANfmANHmAr+PF/6fD/vxAL7qArV7GP21FvnRVurnZ+P2Z9roQeDzGtXzB8v7AqvWiPn+7fn////7ftv/A7z0BKH3v/H+3fT+ruj+AJr/9/r/RcD/bMDKFff/Bo3iG+r8GrX/AIH+H5r/yeP+BHj/t9n/V5r+Am7+H37+BGT/ssX/Imz/RXv/ucz+e4z+JFT/XI3/MGL+LUf/u7f/yc7/Alr+OUf+MSz+QzT+R0T+iHD+SRj+VzH+WQX+AkL+c2L/0sT+aCX+cBL/7+j+aQL+eRv/oUX/fwL+iBD/wXz+jgD/3rr/1rn+dgz+nAP9FpT+lw7+qgH+tQD+vQD/w1f9kwf/xAD9PFn9ogj/ywD9uAfgLZLBAAAAaHRSTlMAW9H+////////xEsC///N////zFz/////////////////uP////7///////////7////////////////////////////////////////////////////////F/7VQ///+/87/vsj/uqL0GQwAAAHcSURBVHgBRMlFehwxEEDhV1VS04yZ7U04m+AmcBjfLLscJ4xLHyA0YGqSlJ7P9MT6BRC52EEQuDjlFITx2eWvXJsDQWYIKgJj4VQW5gBJAg75K5vTgZDTFUEu/kUEzqGaiC6DMBbhpqQyoyKTNYD1Hp+Ui6J0ZH1HhXNA0RfzyRIZl5WprroK3BZwwvx0aUGdB87HCIN5VBUVP9i468ZLxWLv+pg6vJmDaSiSW2eyIRNg84/HxfVJmTD3DxFWGmWjrosRpxMNGr3iIqYbG7IGK5lKvZE3jVuTynsDzHRoD3xpxaTQvIKumGBWgCouM9bPKEisJg0VTV4X0aBqQEuXQ2kGlmVmZCtgCoxBJfeAz0b8NQbWI7wOAKCZMgbn9E6tItG1HFTKRQ4jgSYpiiPu6BFJW1fW9J7oDFWWgpf0MH09YnB6yIEYnIJhLhqkpw3aC4OuUJ4QlDzX55/Um5m4Ue6dmXr59LwkBM0xy/ieVNV7zSSTZMU3fs8UNBomr+v3jQx5X1XmB7tdgnNu1JqDl+0nbnp+HpLp+WM5bB0mIMJFc/ouSgjd+U99O1qYONOhFEMonPcZCZ6eGp9eRcSwhWkSRCIxKnfeIMBh1WRcFOhTaENo/096OTA7AACDzKODDThakgAAAABJRU5ErkJggg==" alt="Instagram">
+
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=61574667521864#" target="_blank" rel="noopener" aria-label="Facebook">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAgVBMVEUAAAAQcP8IZf8IZ/8JZv8HZf8IZv8IZv8IaP8JZ/8HZv8IZv8FZf8YcP9FjP+TvP/g7P/////R4/9Vlf8QYP+Es/9kn/8IZv8nef8JZf8AYP/v9f/Q4v/B2P9GjP8HZv+yz//Q4/83g/8HZv/g6/+Dsv8HZf/n7//////////e6//ZLyHjAAAAK3RSTlMAEGCfz+//XyCQj98w/////////xD//6D/kBD/////7////8///5Cgz+/vONkvXQAAAPJJREFUeAF9kkUCwzAMBGVSGMrM3P//rxBaB+e6s0YREFJpw2y0cgS1cT3DQLmNWPjcwK/XA24RWIuEdg4j7OtHUX0NYedxko5+jCeZMc0En8FsVDDHSd1WDoFdIlogX46awopozWA+ythsd7s9ZxymJBkcs3wcMZC0YHDKhDNbKLowuGYC21zINIWUbQ7EwwJT7YogqgTTKaTY4tIp7HDIRadwwzVlKVyv11HG9cekFBxam8FbTInuQ4LCd3cL2Uzd+4UV/VkHfUIgMLRdQuBi7JsCxh5rQEAfrO9NYSWojruwBOOhDoR8PF+j0fuipNX+AmbCIviMIiwCAAAAAElFTkSuQmCC" alt="Facebook">
+        </a>
+        <a href="https://www.youtube.com/@doctorlaser" target="_blank" rel="noopener" aria-label="Youtube">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/018/930/575/small/youtube-logo-youtube-icon-transparent-free-png.png" alt="Youtube" />
+        </a>
+
+        <a href="https://wa.me/393516281319" target="_blank" rel="noopener" aria-label="Whatsapp">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Whatsapp" />
+        </a>
+
+        <a href="https://t.me/DoctorLaser808" target="_blank" rel="noopener" aria-label="Telegram">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/1200px-Telegram_2019_Logo.svg.png" alt="Telegram" />
+        </a>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="faq-section" data-aos="fade-up">
+    <h2>Domande Frequenti</h2>
+    <div class="faq-container">
+
+        <div class="faq-item">
+            <button class="faq-question">In quanto tempo viene effettuata una riparazione? <span>+</span></button>
+            <div class="faq-answer">
+                <p>I tempi dipendono dal tipo di guasto, ma in genere gli interventi vengono completati entro pochi giorni lavorativi.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Offrite assistenza anche a domicilio? <span>+</span></button>
+            <div class="faq-answer">
+                <p>Sì, possiamo effettuare interventi presso il tuo centro o studio, oppure ritirare il macchinario e riconsegnarlo dopo la riparazione.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Quali macchinari riparate? <span>+</span></button>
+            <div class="faq-answer">
+                <p>Ci occupiamo di laser a diodo, luce pulsata, radiofrequenza, pressoterapia, hydrafacial e altre tecnologie estetiche e medicali.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Offrite garanzia sulle riparazioni? <span>+</span></button>
+            <div class="faq-answer">
+                <p>Sì, tutte le nostre riparazioni sono coperte da garanzia. La durata varia a seconda del tipo di intervento effettuato.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Posso richiedere un preventivo gratuito? <span>+</span></button>
+            <div class="faq-answer">
+                <p>Certo! Puoi contattarci tramite il form o telefonicamente: ti forniremo un preventivo dettagliato senza impegno.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<a href="https://wa.me/393516281319" class="whatsapp" target="_blank" rel="noopener noreferrer">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+</a>
+
+<!-- Footer -->
+<footer data-aos="fade-up">
+    <p>&copy; 2025 Doctor Laser – Tutti i diritti riservati</p>
+    <p>
+        <a href="tel:+393516281319"> +39 351 628 1319</a> |
+        <a href="mailto:info@almafavignana.it"> info@vincenzoiodice.it</a>
+        <a href="privacy.html">Privacy Policy</a>
+    </p>
+</footer>
+
+<!-- Script -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+</body>
+</html>
