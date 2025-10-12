@@ -152,10 +152,11 @@ body {
 
 /* Hero */
 .hero {
+
     padding-top: 80px; /* o quanto è alta la navbar */
     position: relative;
-    height: 90vh;
-    background: url('https://www.beautech.it/wp-content/uploads/attrezzature-estetiche.png') center/cover no-repeat;
+    height: 100vh; /* occupa tutta l’altezza dello schermo */
+    background-color: #000; /* sfondo nero */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -164,23 +165,27 @@ body {
     padding-bottom: 100px; /* Spazio per non sovrapporre il bottone */
     overflow: hidden;
 }
-
-.hero-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 0;
+.hero-image {
+    width: 90%; /* non tocca i bordi su desktop */
+    height: auto;
+    max-width: 1200px;
+    object-fit: contain;
+    display: block;
 }
 
-.hero-overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(106, 27, 27, 0.5);
-    opacity: 0.45; /* più basso = più trasparente */
+
+@keyframes zoomSlow {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
 }
+
+/* Qua c'era hero overlay */
+
+
 
 .hero-content {
     position: relative;
@@ -218,13 +223,35 @@ body {
     box-shadow: 0 6px 15px rgba(106, 27, 27, 0.6);
 }
 
-/* Onda */
+
+/* Sezione immagine sotto la hero */
+.hero-image-section {
+    background-color: #000; /* sfondo nero continuo */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+/* Immagine PNG */
+.hero-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/* Onda sotto l'immagine */
 .hero-wave {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    position: relative; /* NON assoluta, così non si sovrappone */
     width: 100%;
     line-height: 0;
+    background-color: #000; /* continuità con lo sfondo nero sopra */
+    overflow: hidden;
     z-index: 1;
 }
 
@@ -239,16 +266,17 @@ body {
     fill: var(--sand);
 }
 
+/* Responsività */
 @media (max-width: 768px) {
-    .hero {
-        padding-bottom: 140px; /* più spazio sotto per evitare sovrapposizione */
+    .hero-image {
+        width: 100%;
+        height: auto;
     }
 
     .hero-wave svg {
         height: 160px; /* onda più grande su mobile */
     }
 }
-
 /* About */
 #about {
     padding: 4rem 1rem;
